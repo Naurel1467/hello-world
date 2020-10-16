@@ -3,4 +3,5 @@ From tomcat:8-jre8
 
 # Maintainer 
 MAINTAINER "valaxytech@gmail.com" 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY /home/ubuntu/jenkins-docker/webapp.war /usr/local/tomcat/webapps
+ 
